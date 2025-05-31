@@ -14,11 +14,11 @@ Currently a Vite-powered playground, Flow is evolving into a production-ready co
 
 - **PushButton** - A faithful recreation of CRED's famous push button with that satisfying press animation
 
-![PushButton Demo](./demos/push-button-demo.gif)
+![PushButton Demo](https://github.com/user-attachments/assets/8c0ebde1-52f7-4acf-907c-2dce9acbd423)
 
 - **AnimatedButton** - Smooth, customizable button with various animation states
 
-![AnimatedButton Demo](./demos/animated-button-demo.gif)
+![AnimatedButton Demo](https://github.com/user-attachments/assets/d427d285-37f0-430a-8f86-7852164de4b0)
 
 ### Coming Soon
 
