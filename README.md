@@ -14,11 +14,18 @@ Currently a Vite-powered playground, Flow is evolving into a production-ready co
 
 - **PushButton** - A faithful recreation of CRED's famous push button with that satisfying press animation
 
-https://github.com/adwaithks/flow/raw/main/demos/push-button-demo.mov
+<video width="400" controls></video>
+
+  <source src="./demos/push-button-demo.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 - **AnimatedButton** - Smooth, customizable button with various animation states
 
-https://github.com/adwaithks/flow/raw/main/demos/animated-button-demo.mov
+<video width="400" controls>
+  <source src="./demos/animated-button-demo.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 ### Coming Soon
 
