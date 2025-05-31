@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Geist Mono', monospace;
+  font-family: 'Poppins', monospace;
 }
