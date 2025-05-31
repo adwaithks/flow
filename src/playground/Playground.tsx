@@ -1,9 +1,10 @@
 import PushButton from '../components/PushButton/PushButton';
+import ShimmerButton from '../components/ShimmerButton/ShimmerButton';
 import AnimatedButtonDemo from './AnimatedButtonDemo/AnimatedButtonDemo';
 
 const Playground = () => {
   return (
-    <div className='flex flex-col gap-4 items-center justify-center h-[100vh]'>
+    <div className='flex flex-col gap-4 items-center justify-center h-[100%]'>
       <>
         <p>animated button</p>
         <AnimatedButtonDemo />
@@ -19,6 +20,21 @@ const Playground = () => {
         >
           Pay now
         </PushButton>
+      </>
+
+      <>
+        <p>shimmer button</p>
+        <ShimmerButton
+          style={{
+            width: '250px',
+            height: '60px',
+            display: 'flex',
+          }}
+        >
+          <span className='text-black text-[12px] h-[100%] font-semibold flex items-center justify-center'>
+            Pay now
+          </span>
+        </ShimmerButton>
       </>
     </div>
   );
