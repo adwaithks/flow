@@ -1,54 +1,108 @@
-# React + TypeScript + Vite
+# Flow ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Beautiful, animated React components inspired by modern design systems
 
-Currently, two official plugins are available:
+Flow is a collection of meticulously crafted animated components for React applications. Born from a recreation of CRED's iconic push button, we're building a comprehensive library of smooth, delightful UI components that make your app feel alive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Vision
 
-## Expanding the ESLint configuration
+Currently a Vite-powered playground, Flow is evolving into a production-ready component library that you'll be able to install and use in your React projects. We're focused on creating components that aren't just functional, but genuinely delightful to interact with.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Components
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Available Now
+
+- **PushButton** - A faithful recreation of CRED's famous push button with that satisfying press animation
+- **AnimatedButton** - Smooth, customizable button with various animation states
+
+### Coming Soon
+
+- Animated Cards
+- Smooth Modals
+- Delightful Toggles
+- Fluid Tabs
+- And much more...
+
+## 🚀 Current Status
+
+This is currently a development playground using:
+
+- ⚛️ React 19
+- 🎨 Tailwind CSS
+- 🎭 Framer Motion
+- 📦 Vite
+- 🔷 TypeScript
+
+## 🛠️ Development
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/flow.git
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🗺️ Roadmap
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [x] CRED-inspired Push Button
+- [x] Basic Animated Button
+- [ ] More animated components
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## 🎨 Design Philosophy
+
+**Our mission: Bring life to components.**
+
+Every interaction should feel alive. A button isn't just clicked—it responds, breathes, and acknowledges your touch. A card doesn't just appear—it arrives with purpose. This is what Flow is about.
+
+We believe that:
+
+- **Motion creates emotion** - The right animation at the right moment creates memorable experiences
+- **Details matter** - Those subtle bounces, smooth transitions, and perfect timing make all the difference
+- **Static is boring** - Your UI should respond to users like a living thing
+- **Performance is non-negotiable** - Life-like doesn't mean sluggish. Every animation runs at a buttery 60fps
+- **Pure delight** - Sometimes the best experiences are just about making people smile
+
+Flow transforms your interface from a static document into a living, breathing experience. Because when components come alive, users feel the difference.
+
+## 📝 Future Installation
+
+Once published as a library, you'll be able to install Flow like this:
+
+```bash
+npm install @yourusername/flow
+# or
+yarn add @yourusername/flow
 ```
+
+And use it in your React app:
+
+```jsx
+import { PushButton, AnimatedButton } from '@yourusername/flow';
+
+function App() {
+  return (
+    <PushButton onClick={() => console.log('That felt good!')}>
+      Press Me
+    </PushButton>
+  );
+}
+```
+
+## 🤝 Contributing
+
+While we're still in early development, we'd love to hear your ideas! Feel free to open issues for component requests or animation ideas.
+
+## 📄 License
+
+MIT © [Your Name]
+
+---
+
+<p align="center">Made with ❤️ and lots of keyframes</p>
