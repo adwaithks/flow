@@ -1,110 +1,195 @@
+<div align="center">
+
 # Flow ✨
 
-> Beautiful, animated React components inspired by modern design systems
+### Beautiful, animated React components inspired by modern design systems
+
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+
+</div>
+
+---
 
 Flow is a collection of meticulously crafted animated components for React applications. Born from a recreation of CRED's iconic push button, we're building a comprehensive library of smooth, delightful UI components that make your app feel alive.
 
 > ⚠️ **Development Notice**: This project is still under active development. Component APIs are subject to changes as we work to make them more generic and reusable. Additionally, the components are not fully tested and may contain bugs or unexpected behavior.
 
+---
+
 ## 🎯 Vision
 
 Currently a Vite-powered playground, Flow is evolving into a production-ready component library that you'll be able to install and use in your React projects. We're focused on creating components that aren't just functional, but genuinely delightful to interact with.
 
+---
+
 ## ✨ Components
 
-### Available Now
+### 🚀 Available Now
 
-- **PushButton** - A faithful recreation of CRED's famous push button with that satisfying press animation
+#### **PushButton**
+
+_A faithful recreation of CRED's famous push button with that satisfying press animation_
 
 ![PushButton Demo](https://github.com/user-attachments/assets/8c0ebde1-52f7-4acf-907c-2dce9acbd423)
 
-- **AnimatedButton** - Smooth, customizable button with various animation states
+#### **AnimatedButton**
+
+_Smooth, customizable button with various animation states_
 
 ![AnimatedButton Demo](https://github.com/user-attachments/assets/d427d285-37f0-430a-8f86-7852164de4b0)
 
-### Coming Soon
+#### **ShimmerButton**
 
-- Animated Cards
-- Smooth Modals
-- Delightful Toggles
-- Fluid Tabs
-- And much more...
+_Another CRED-inspired component featuring a beautiful shimmer effect animation_
 
-## 🚀 Current Status
+![ShimmerButton Demo](https://github.com/user-attachments/assets/55658fce-4094-42d9-9d00-d4c58d2b21c8)
 
-This is currently a development playground using:
+### 🔮 Coming Soon
 
-- ⚛️ React 19
-- 🎨 Tailwind CSS
-- 🎭 Framer Motion
-- 📦 Vite
-- 🔷 TypeScript
+- 🎴 **Animated Cards** - Cards that come alive with smooth transitions
+- 🪟 **Smooth Modals** - Modal dialogs with delightful entry/exit animations
+- 🔄 **Delightful Toggles** - Switches and toggles with satisfying feedback
+- 📑 **Fluid Tabs** - Tab components with seamless transitions
+- ✨ **And much more...** - The sky's the limit!
 
-## 🛠️ Development
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Technology           | Version | Purpose          |
+| -------------------- | ------- | ---------------- |
+| ⚛️ **React**         | 19      | Core framework   |
+| 🎨 **Tailwind CSS**  | Latest  | Styling system   |
+| 🎭 **Framer Motion** | Latest  | Animation engine |
+| 📦 **Vite**          | Latest  | Build tool       |
+| 🔷 **TypeScript**    | Latest  | Type safety      |
+
+</div>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Development Setup
 
 ```bash
-# Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/yourusername/flow.git
 
-# Install dependencies
+# 2️⃣ Navigate to project directory
+cd flow
+
+# 3️⃣ Install dependencies
 npm install
 
-# Start the development server
+# 4️⃣ Start the development server
 npm run dev
 
-# Build for production
+# 5️⃣ Build for production
 npm run build
 ```
 
+---
+
 ## 🗺️ Roadmap
 
-- [x] CRED-inspired Push Button
-- [x] Basic Animated Button
-- [ ] More animated components
+<div align="center">
+
+| Status | Component                        | Description                  |
+| ------ | -------------------------------- | ---------------------------- |
+| ✅     | **CRED-inspired Push Button**    | _Satisfying press animation_ |
+| ✅     | **Basic Animated Button**        | _Smooth state transitions_   |
+| ✅     | **CRED-inspired Shimmer Button** | _Beautiful shimmer effects_  |
+| 🚧     | **More animated components**     | _Coming soon..._             |
+
+</div>
+
+---
 
 ## 🎨 Design Philosophy
 
-**Our mission: Bring life to components.**
+<div align="center">
+
+### **Our mission: Bring life to components.**
+
+</div>
 
 Every interaction should feel alive. A button isn't just clicked—it responds, breathes, and acknowledges your touch. A card doesn't just appear—it arrives with purpose. This is what Flow is about.
 
-We believe that:
+### 💭 Core Beliefs
 
-- **Motion creates emotion** - The right animation at the right moment creates memorable experiences
-- **Details matter** - Those subtle bounces, smooth transitions, and perfect timing make all the difference
-- **Static is boring** - Your UI should respond to users like a living thing
-- **Performance is non-negotiable** - Life-like doesn't mean sluggish. Every animation runs at a buttery 60fps
-- **Pure delight** - Sometimes the best experiences are just about making people smile
+- 🎬 **Motion creates emotion** - The right animation at the right moment creates memorable experiences
+- 🔍 **Details matter** - Those subtle bounces, smooth transitions, and perfect timing make all the difference
+- 🚫 **Static is boring** - Your UI should respond to users like a living thing
+- ⚡ **Performance is non-negotiable** - Life-like doesn't mean sluggish. Every animation runs at a buttery 60fps
+- 😊 **Pure delight** - Sometimes the best experiences are just about making people smile
 
 Flow transforms your interface from a static document into a living, breathing experience. Because when components come alive, users feel the difference.
 
-## 📝 Future Installation
+---
+
+## 📦 Future Installation
+
+> 🚧 **Important Notice**: Flow is not yet available as an npm package. This section outlines our current direction, but plans may change. We're considering either publishing as a traditional npm package or shifting to a copy-paste component library approach. The package name `flow` is also tentative and may change with slight variations.
 
 Once published as a library, you'll be able to install Flow like this:
 
 ```bash
-npm install @yourusername/flow
-# or
-yarn add @yourusername/flow
+# Using npm
+npm install flow
+
+# Using yarn
+yarn add flow
+
+# Using pnpm
+pnpm add flow
 ```
 
-And use it in your React app:
+### Usage Example
 
 ```jsx
-import { PushButton, AnimatedButton } from '@yourusername/flow';
+import { PushButton, AnimatedButton, ShimmerButton } from 'flow';
 
 function App() {
   return (
-    <PushButton onClick={() => console.log('That felt good!')}>
-      Press Me
-    </PushButton>
+    <div className='space-y-4'>
+      <PushButton onClick={() => console.log('That felt good!')}>
+        Press Me
+      </PushButton>
+
+      <AnimatedButton>Animate Me</AnimatedButton>
+
+      <ShimmerButton>Shimmer Away</ShimmerButton>
+    </div>
   );
 }
 ```
 
+---
+
 ## 🤝 Contributing
 
 While we're still in early development, we'd love to hear your ideas! Feel free to open issues for component requests or animation ideas.
+
+### Ways to Contribute
+
+- 🐛 Report bugs and issues
+- 💡 Suggest new component ideas
+- 🎨 Share animation concepts
+- 📝 Improve documentation
+- 🧪 Help with testing
+
+---
 
 ## 📄 License
 
@@ -112,4 +197,10 @@ See the [LICENSE](LICENSE) file for details
 
 ---
 
-<p align="center">Made with ❤️ and lots of keyframes</p>
+<div align="center">
+
+**Made with ❤️ and lots of keyframes**
+
+_Star ⭐ this repo if you find it useful!_
+
+</div>
