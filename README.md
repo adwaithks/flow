@@ -4,6 +4,8 @@
 
 Flow is a collection of meticulously crafted animated components for React applications. Born from a recreation of CRED's iconic push button, we're building a comprehensive library of smooth, delightful UI components that make your app feel alive.
 
+> ⚠️ **Development Notice**: This project is still under active development. Component APIs are subject to changes as we work to make them more generic and reusable. Additionally, the components are not fully tested and may contain bugs or unexpected behavior.
+
 ## 🎯 Vision
 
 Currently a Vite-powered playground, Flow is evolving into a production-ready component library that you'll be able to install and use in your React projects. We're focused on creating components that aren't just functional, but genuinely delightful to interact with.
