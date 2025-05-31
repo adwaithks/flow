@@ -16,14 +16,14 @@ Currently a Vite-powered playground, Flow is evolving into a production-ready co
 
 <video width="400" controls></video>
 
-  <source src="./demos/push-button-demo.mov" type="video/quicktime">
+  <source src="https://github.com/adwaithks/flow/blob/master/demos/push-button-demo.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 
 - **AnimatedButton** - Smooth, customizable button with various animation states
 
 <video width="400" controls>
-  <source src="./demos/animated-button-demo.mov" type="video/quicktime">
+  <source src="https://github.com/adwaithks/flow/blob/master/demos/animated-button-demo.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 
