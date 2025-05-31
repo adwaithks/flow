@@ -101,7 +101,7 @@ While we're still in early development, we'd love to hear your ideas! Feel free 
 
 ## 📄 License
 
-MIT © [Your Name]
+See the [LICENSE](LICENSE) file for details
 
 ---
 
