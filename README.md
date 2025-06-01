@@ -33,19 +33,19 @@ Currently a Vite-powered playground, Flow is evolving into a production-ready co
 
 _A faithful recreation of CRED's famous push button with that satisfying press animation_
 
-![PushButton Demo](https://github.com/user-attachments/assets/8c0ebde1-52f7-4acf-907c-2dce9acbd423)
+![PushButton Demo](/demos/pushbutton.gif)
 
 #### **AnimatedButton**
 
 _Smooth, customizable button with various animation states_
 
-![AnimatedButton Demo](https://github.com/user-attachments/assets/d427d285-37f0-430a-8f86-7852164de4b0)
+![AnimatedButton Demo](/demos/animatedbutton.gif)
 
 #### **ShimmerButton**
 
 _Another CRED-inspired component featuring a beautiful shimmer effect animation_
 
-![ShimmerButton Demo](https://github.com/user-attachments/assets/55658fce-4094-42d9-9d00-d4c58d2b21c8)
+![ShimmerButton Demo](/demos/shimmerbutton.gif)
 
 ### 🔮 Coming Soon
 
