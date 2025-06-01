@@ -95,7 +95,7 @@ npm install
 # 4️⃣ Start the development server
 npm run dev
 
-# 5️⃣ Build for production
+# 5️⃣ Build for production (not recommended right now)
 npm run build
 ```
 
