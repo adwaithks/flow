@@ -84,7 +84,7 @@ _Another CRED-inspired component featuring a beautiful shimmer effect animation_
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/yourusername/flow.git
+git clone https://github.com/adwaithks/flow.git
 
 # 2️⃣ Navigate to project directory
 cd flow
