@@ -2,6 +2,7 @@ import PopperTabsDemo from './PopperTabsDemo/PopperTabsDemo';
 import PushButton from '../components/PushButton/PushButton';
 import ShimmerButton from '../components/ShimmerButton/ShimmerButton';
 import AnimatedButtonDemo from './AnimatedButtonDemo/AnimatedButtonDemo';
+import SwitchDemo from './SwitchDemo/SwitchDemo';
 
 const Playground = () => {
   return (
@@ -9,6 +10,8 @@ const Playground = () => {
       <div className='w-[100%] p-2 mt-2 flex items-center justify-center'>
         <PopperTabsDemo />
       </div>
+
+      <SwitchDemo />
       <>
         <p>animated button</p>
         <AnimatedButtonDemo />
