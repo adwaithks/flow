@@ -53,6 +53,12 @@ _Dynamic tab component with smooth popper-style animations and transitions_
 
 ![PopperTabs Demo](/demos/poppertabs.gif)
 
+#### **Switch**
+
+_Smooth animated toggle switch with delightful state transitions and feedback_
+
+![Switch Demo](/demos/switch.gif)
+
 ### 🔮 Coming Soon
 
 - 🎴 **Animated Cards** - Cards that come alive with smooth transitions
@@ -117,6 +123,7 @@ npm run build
 | ✅     | **Basic Animated Button**        | _Smooth state transitions_   |
 | ✅     | **CRED-inspired Shimmer Button** | _Beautiful shimmer effects_  |
 | ✅     | **PopperTabs**                   | _Dynamic tab animations_     |
+| ✅     | **Switch**                       | _Animated toggle component_  |
 | 🚧     | **More animated components**     | _Coming soon..._             |
 
 </div>
@@ -165,7 +172,7 @@ pnpm add flow
 ### Usage Example
 
 ```jsx
-import { PushButton, AnimatedButton, ShimmerButton } from 'flow';
+import { PushButton, AnimatedButton, ShimmerButton, Switch } from 'flow';
 
 function App() {
   return (
@@ -177,6 +184,8 @@ function App() {
       <AnimatedButton>Animate Me</AnimatedButton>
 
       <ShimmerButton>Shimmer Away</ShimmerButton>
+
+      <Switch />
     </div>
   );
 }
