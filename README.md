@@ -59,6 +59,18 @@ _Smooth animated toggle switch with delightful state transitions and feedback_
 
 ![Switch Demo](/demos/switch.gif)
 
+#### **RevealCard**
+
+_Interactive card with spotlight effect that reveals hidden content on hover_
+
+![RevealCard Demo](/demos/revealcard.gif)
+
+#### **ShadowTrackingText**
+
+_Dynamic text component where the shadow follows mouse movement for engaging interactions_
+
+![ShadowTrackingText Demo](/demos/shadowtrackingtext.gif)
+
 ### 🔮 Coming Soon
 
 - 🎴 **Animated Cards** - Cards that come alive with smooth transitions
@@ -117,14 +129,16 @@ npm run build
 
 <div align="center">
 
-| Status | Component                        | Description                  |
-| ------ | -------------------------------- | ---------------------------- |
-| ✅     | **CRED-inspired Push Button**    | _Satisfying press animation_ |
-| ✅     | **Basic Animated Button**        | _Smooth state transitions_   |
-| ✅     | **CRED-inspired Shimmer Button** | _Beautiful shimmer effects_  |
-| ✅     | **PopperTabs**                   | _Dynamic tab animations_     |
-| ✅     | **Switch**                       | _Animated toggle component_  |
-| 🚧     | **More animated components**     | _Coming soon..._             |
+| Status | Component                        | Description                   |
+| ------ | -------------------------------- | ----------------------------- |
+| ✅     | **CRED-inspired Push Button**    | _Satisfying press animation_  |
+| ✅     | **Basic Animated Button**        | _Smooth state transitions_    |
+| ✅     | **CRED-inspired Shimmer Button** | _Beautiful shimmer effects_   |
+| ✅     | **PopperTabs**                   | _Dynamic tab animations_      |
+| ✅     | **Switch**                       | _Animated toggle component_   |
+| ✅     | **RevealCard**                   | _Interactive hover spotlight_ |
+| ✅     | **ShadowTrackingText**           | _Mouse-following shadow text_ |
+| 🚧     | **More animated components**     | _Coming soon..._              |
 
 </div>
 
@@ -172,7 +186,14 @@ pnpm add flow
 ### Usage Example
 
 ```jsx
-import { PushButton, AnimatedButton, ShimmerButton, Switch } from 'flow';
+import {
+  PushButton,
+  AnimatedButton,
+  ShimmerButton,
+  Switch,
+  RevealCard,
+  ShadowTrackingText,
+} from 'flow';
 
 function App() {
   return (
@@ -186,6 +207,18 @@ function App() {
       <ShimmerButton>Shimmer Away</ShimmerButton>
 
       <Switch />
+
+      <RevealCard
+        overlay={
+          <div className='bg-gradient-to-r from-purple-600 to-blue-600 text-white p-4'>
+            Hidden content revealed!
+          </div>
+        }
+      >
+        <div className='p-4'>Hover to reveal</div>
+      </RevealCard>
+
+      <ShadowTrackingText>Move your mouse over me!</ShadowTrackingText>
     </div>
   );
 }
