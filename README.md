@@ -47,12 +47,6 @@ _Another CRED-inspired component featuring a beautiful shimmer effect animation_
 
 ![ShimmerButton Demo](/demos/shimmerbutton.gif)
 
-#### **PopperTabs**
-
-_Dynamic tab component with smooth popper-style animations and transitions_
-
-![PopperTabs Demo](/demos/poppertabs.gif)
-
 #### **Switch**
 
 _Smooth animated toggle switch with delightful state transitions and feedback_
@@ -134,7 +128,6 @@ npm run build
 | ✅     | **CRED-inspired Push Button**    | _Satisfying press animation_  |
 | ✅     | **Basic Animated Button**        | _Smooth state transitions_    |
 | ✅     | **CRED-inspired Shimmer Button** | _Beautiful shimmer effects_   |
-| ✅     | **PopperTabs**                   | _Dynamic tab animations_      |
 | ✅     | **Switch**                       | _Animated toggle component_   |
 | ✅     | **RevealCard**                   | _Interactive hover spotlight_ |
 | ✅     | **ShadowTrackingText**           | _Mouse-following shadow text_ |

@@ -1,4 +1,3 @@
-import PopperTabsDemo from './PopperTabsDemo/PopperTabsDemo';
 import PushButton from '../components/PushButton/PushButton';
 import ShimmerButton from '../components/ShimmerButton/ShimmerButton';
 import AnimatedButtonDemo from './AnimatedButtonDemo/AnimatedButtonDemo';
@@ -9,10 +8,6 @@ import RevealCard from '../components/RevealCard/RevealCard';
 const Playground = () => {
   return (
     <div className='flex flex-col gap-4 items-center justify-center h-[100%]'>
-      <div className='w-[100%] p-2 mt-2 flex items-center justify-center'>
-        <PopperTabsDemo />
-      </div>
-
       <SwitchDemo />
 
       <>
